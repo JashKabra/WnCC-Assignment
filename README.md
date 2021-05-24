@@ -1,5 +1,5 @@
 # WnCC-Assignment
-This is my submission of task 2 of assignment for the post of convener in WnCC.
+This is my submission of task 2 of assignment for the post of convener in WnCC./n
 This task involved scraping the website https://www.covid19india.org to get the cases in the districts of any state in India.
 To run the code locally:
   1. Download the zip file from github and extract it. Make sure that all the files are in the same directory.
