@@ -10,3 +10,5 @@ To run the code locally:
  
  States.csv contains the information of all the states required to navigate within the website.  
  Maharashtra.csv is just a sample file containing what the output would look like.  
+ 
+ Honor Code: I have not taken the help of any of my friends or acquaintances irrespective of them being a candidate for the position of WnCC convener or not.
