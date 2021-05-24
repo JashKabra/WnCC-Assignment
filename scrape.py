@@ -27,7 +27,7 @@ chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 chrome_options.add_argument("--headless")
 
 os.environ['WDM_LOG_LEVEL'] = '0'
-driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
+driver = webdriver.Chrome(ChromeDriverManager(cache_valid_range=0).install(),options=chrome_options)
 driver.get('https://www.covid19india.org/state/'+states[int(val)-1][1])
 driver.implicitly_wait(5)
 
